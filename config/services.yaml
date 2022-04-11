@@ -1,0 +1,7 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+  skobzr\BarBundle\Command\:
+    resource: '../src/Command/*'
+    tags: [ 'console.command' ]
